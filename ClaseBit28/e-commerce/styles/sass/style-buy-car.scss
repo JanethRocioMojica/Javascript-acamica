@@ -1,0 +1,95 @@
+*{
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.home-container{
+    margin: auto;
+    border: solid grey;
+    max-width: 600px;
+    .header-container{
+        display: flex;
+        justify-content: space-between;
+        .logo-box{
+            margin: 20px;
+        }
+        .user-box{
+            margin: 20px;
+        }
+    }
+    .shop-container{
+        background: rgb(31, 35, 58);
+        height: 600px;
+        text-align: center;
+        color: #ffff;
+        .shop-menu-box{
+            margin: auto;
+            border-radius: 60px;
+            top: 40px;
+            left: 100px;
+            background: #FFFF;
+            width: 70%;
+            height: 450px;
+            color: black;
+            .title-shop-menu{
+                padding-top: 30px;
+            }
+            .line-decoration{
+                display: block;
+                height: 2px;
+                width: 100%;
+                background-color: black;
+            }
+            .products-car-container{//NODO DE REFERENCIA
+                margin: auto;
+                width: 90%;
+                text-align: center;
+                .products-car-box{
+                    display: flex;
+                    justify-content: space-between;
+                    .img-box{
+                        width: 70px;
+                        height: 70px;
+                        object-fit: cover;
+                        .img-product{
+                            widows: inherit;
+                            height: inherit;
+                        }
+                    }
+                    .description-product-box{
+                        width: 200px;
+                        text-align: left;
+                        .title-product{
+                            margin-top: 5px;
+                        }
+                        .price-product{
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        .bill-box{
+            text-align: center;
+            .final-cost{
+                margin-top: 5px;
+            }
+            .btn-pay-box{
+                display: none;
+                margin: auto;
+                margin-top: 10px;
+                background: rgb(55, 63, 109);
+                border-radius: 15px;
+                width: 150px;
+                height: 30px;
+                line-height: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+}

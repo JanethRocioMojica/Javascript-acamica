@@ -1,0 +1,118 @@
+* {
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-container {
+  margin: auto;
+  border: solid grey;
+  max-width: 600px;
+}
+.home-container .header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.home-container .header-container .logo-box {
+  margin: 20px;
+}
+.home-container .header-container .user-box {
+  margin: 20px;
+}
+.home-container .ecommerce-container {
+  display: flex;
+  background: #1f233a;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.home-container .ecommerce-container .ecommerce-menu-box {
+  border-radius: 60px;
+  top: 40px;
+  left: 100px;
+  background: #FFFF;
+  width: 70%;
+  height: 500px;
+  text-align: center;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .menu-box-tecnologia {
+  display: flex;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .menu-box-tecnologia .item-box {
+  margin: auto;
+  border-radius: 8px;
+  line-height: 20px;
+  height: 20px;
+  background: grey;
+  font-size: 15px;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .menu-box-tecnologia .portatil-item-box {
+  height: 50px;
+  line-height: 50px;
+  background: #1f233a;
+  color: honeydew;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .box-slider {
+  height: 415px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  overflow-y: scroll;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .box-slider .slider .product-box {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: #dbdad8;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .box-slider .slider .product-box .img-box {
+  margin-left: 10px;
+  width: 140px;
+  height: 200px;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .box-slider .slider .product-box .img-box .product-img {
+  width: inherit;
+  height: inherit;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .box-slider .slider .product-box .product-specifys-container {
+  text-align: left;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .box-slider .slider .product-box .product-specifys-container .title-product {
+  margin: 30px 0 0 10px;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .box-slider .slider .product-box .product-specifys-container .content-description-product {
+  margin: 5px 0 0 10px;
+  width: 240px;
+  height: 75px;
+  font-size: 15px;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .box-slider .slider .product-box .product-specifys-container .cost-product {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .box-slider .slider .product-box .product-specifys-container .button {
+  margin-left: 3px;
+  display: inline-block;
+  width: 90px;
+  border-radius: 8px;
+  background: #090a13;
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFF;
+  cursor: pointer;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .box-slider .slider .product-box .product-specifys-container .shop-car {
+  width: 50px;
+  border-radius: 15px;
+  background-color: #FFFF;
+  color: black;
+}
+
+/*# sourceMappingURL=style-products.css.map */

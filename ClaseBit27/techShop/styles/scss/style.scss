@@ -1,0 +1,111 @@
+$main-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background-color: rgb(17, 14, 14);
+  .box-logo {
+    width: 70px;
+    height: auto;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .container-menu {
+    .menu-nav {
+      display: flex;
+      height: 100%;
+      a {
+        height: 100%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 20px 10px;
+      }
+      a:hover {
+        background-color: rgb(34, 33, 33);
+        color: rgb(194, 184, 184);
+        transition: all 0.5s ease;
+      }
+      &:last-of-type {
+        .shopping-car {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+main {
+  margin-top: 20px;
+  .hero {
+    display: flex;
+    .box-text-hero {
+      width: 50%;
+      .title-hero {
+        font-family: $main-font;
+        font-size: 35px;
+        text-transform: uppercase;
+        margin: 15px 10px;
+      }
+    }
+    .box-img-hero {
+      width: 50%;
+      margin: 10px 15px;
+      border: 1px solid transparent;
+      .img-products-hero {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+    }
+  }
+  .top-five-products {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 15px;
+    .container-product {
+      width: 33%;
+      text-align: center;
+      .box-product {
+        margin: 25px 10px;
+        img {
+          width: 100%;
+          max-height: 250px;
+          object-fit: cover;
+          border-radius: 80px;
+        }
+      }
+      .text-product {
+        font-family: $main-font;
+        font-size: 25px;
+        font-weight: 600;
+      }
+    }
+    .box-button {
+      font-family: $main-font;
+      font-size: 25px;
+      font-weight: 500;
+      color: #fff;
+      background-color: rgb(22, 21, 21);
+      padding: 10px 25px;
+      border-radius: 30px;
+      margin: 35px auto;
+    }
+  }
+}

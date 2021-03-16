@@ -1,0 +1,54 @@
+*{
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.home-container{
+    margin: auto;
+    border: solid grey;
+    max-width: 600px;
+    .header-container{
+        display: flex;
+        justify-content: space-between;
+        .logo-box{
+            margin: 20px;
+        }
+        .user-box{
+            margin: 20px;
+        }
+    }
+    .ecommerce-container{
+        display: flex;
+        background: rgb(31, 35, 58);
+        height: 600px;
+        justify-content: center;
+        align-items: center;
+        .ecommerce-menu-box{
+            border-radius: 60px;
+            top: 40px;
+            left: 100px;
+            background: #FFFF;
+            width: 70%;
+            height: 500px;
+            text-align: center;
+            .title-home{
+                // margin: auto;
+            }
+            .menú-item-box{
+                margin: 40px auto;
+                border: solid 1px;
+                width: 70%;
+                height: 50px;
+                line-height: 50px;
+                border-radius: 20px ;
+                cursor: pointer;
+            }
+            
+        }
+    }
+}

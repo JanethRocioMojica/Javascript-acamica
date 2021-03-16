@@ -1,0 +1,99 @@
+* {
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-container {
+  margin: auto;
+  border: solid grey;
+  max-width: 600px;
+}
+.home-container .header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.home-container .header-container .logo-box {
+  margin: 20px;
+}
+.home-container .header-container .user-box {
+  margin: 20px;
+}
+.home-container .shop-container {
+  background: #1f233a;
+  height: 600px;
+  text-align: center;
+  color: #ffff;
+}
+.home-container .shop-container .shop-menu-box {
+  margin: auto;
+  border-radius: 60px;
+  top: 40px;
+  left: 100px;
+  background: #FFFF;
+  width: 70%;
+  height: 450px;
+  color: black;
+}
+.home-container .shop-container .shop-menu-box .title-shop-menu {
+  padding-top: 30px;
+}
+.home-container .shop-container .shop-menu-box .line-decoration {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+}
+.home-container .shop-container .shop-menu-box .products-car-container {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+.home-container .shop-container .shop-menu-box .products-car-container .products-car-box {
+  display: flex;
+  justify-content: space-between;
+}
+.home-container .shop-container .shop-menu-box .products-car-container .products-car-box .img-box {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.home-container .shop-container .shop-menu-box .products-car-container .products-car-box .img-box .img-product {
+  widows: inherit;
+  height: inherit;
+}
+.home-container .shop-container .shop-menu-box .products-car-container .products-car-box .description-product-box {
+  width: 200px;
+  text-align: left;
+}
+.home-container .shop-container .shop-menu-box .products-car-container .products-car-box .description-product-box .title-product {
+  margin-top: 5px;
+}
+.home-container .shop-container .shop-menu-box .products-car-container .products-car-box .description-product-box .price-product {
+  margin-top: 5px;
+}
+.home-container .shop-container .bill-box {
+  text-align: center;
+}
+.home-container .shop-container .bill-box .final-cost {
+  margin-top: 5px;
+}
+.home-container .shop-container .bill-box .btn-pay-box {
+  display: none;
+  margin: auto;
+  margin-top: 10px;
+  background: #373f6d;
+  border-radius: 15px;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style-buy-car.css.map */

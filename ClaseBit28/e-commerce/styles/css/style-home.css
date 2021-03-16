@@ -1,0 +1,72 @@
+@charset "UTF-8";
+* {
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-container {
+  margin: auto;
+  border: solid grey;
+  max-width: 600px;
+}
+.home-container .header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.home-container .header-container .logo-box {
+  margin: 20px;
+}
+.home-container .header-container .user-box {
+  margin: 20px;
+}
+.home-container .ecommerce-container {
+  display: flex;
+  background: #1f233a;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+.home-container .ecommerce-container .ecommerce-menu-box {
+  border-radius: 60px;
+  top: 40px;
+  left: 100px;
+  background: #FFFF;
+  width: 70%;
+  height: 500px;
+  text-align: center;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .menú-item-box {
+  margin: 40px auto;
+  border: solid 1px;
+  width: 70%;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .menu-box-tecnologia {
+  display: flex;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .menu-box-tecnologia .item-box {
+  margin: auto;
+  border-radius: 8px;
+  line-height: 20px;
+  height: 20px;
+  background: grey;
+  font-size: 15px;
+}
+.home-container .ecommerce-container .ecommerce-menu-box .menu-box-tecnologia .portatil-item-box {
+  height: 50px;
+  line-height: 50px;
+  background: #1f233a;
+  color: honeydew;
+}
+
+/*# sourceMappingURL=style-home.css.map */
